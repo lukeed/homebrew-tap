@@ -4,23 +4,23 @@ class Pocketty < Formula
 
   on_macos do
     on_arm do
-      url "https://dl.pocketty.app/0.1.0/pocketty-aarch64-apple-darwin.tar.gz"
-      sha256 "b40f55923713b78b4978111942c9deb6726a310a23ea331b40c35545d0600ecc"
+      url "https://dl.pocketty.app/0.1.1/pocketty-aarch64-apple-darwin.tar.gz"
+      sha256 "87dbbb8588185d65113ff35fc5fd46255fea7450fb6eaab2e4309df5e3513b8f"
     end
     on_intel do
-      url "https://dl.pocketty.app/0.1.0/pocketty-x86_64-apple-darwin.tar.gz"
-      sha256 "41e8e02370eada4b459f3b1c4bef6487c12565532bdab52ea0e7d3eb685cf8bd"
+      url "https://dl.pocketty.app/0.1.1/pocketty-x86_64-apple-darwin.tar.gz"
+      sha256 "8a257cdb01eaa9fc8ddfd9c5d9be5bcb7bdf39c07f16e408c563c2ba86563b40"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.pocketty.app/0.1.0/pocketty-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1866bbd48f941771526fdf7c23323b70d3828b962f7c2cfb3ffe452c6601dd4d"
+      url "https://dl.pocketty.app/0.1.1/pocketty-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9d2c230a4696d77d21beaf662a887f053264e4733f875ca120bb64ddb6fd162a"
     end
     on_intel do
-      url "https://dl.pocketty.app/0.1.0/pocketty-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2915bf0bea2288c0287869d4ba1b08328ddba6ce87cb7ac6aabc39d1720549e3"
+      url "https://dl.pocketty.app/0.1.1/pocketty-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "269544533c8f5053b49babb72bca64781606255ac3605a468c104393a01c9edb"
     end
   end
 

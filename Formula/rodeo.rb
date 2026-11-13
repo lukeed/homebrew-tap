@@ -1,28 +1,28 @@
 class Rodeo < Formula
   desc "Keyboard-first terminal UI for herdr-core, sharing panes with the Herdr app"
   homepage "https://rodeo.lukeed.com"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://rodeo.lukeed.com/download/v0.2.0/rodeo-aarch64-apple-darwin.tar.gz"
-      sha256 "01daa26ff46d562da424e61457a7f9c2a9fe6b38f63b519b3dffc12ae7d28989"
+      url "https://rodeo.lukeed.com/download/v0.2.1/rodeo-aarch64-apple-darwin.tar.gz"
+      sha256 "e0ca47cc3c3af5232eeca6ec7869bea44e354601f3f05e5dfc1f5fac0cf65e8c"
     end
     on_intel do
-      url "https://rodeo.lukeed.com/download/v0.2.0/rodeo-x86_64-apple-darwin.tar.gz"
-      sha256 "2472b34ce4e4166a49e3be85cd1f91fa8bde88456db7d214501114926bd56f65"
+      url "https://rodeo.lukeed.com/download/v0.2.1/rodeo-x86_64-apple-darwin.tar.gz"
+      sha256 "14825ada3e6fc3cf3eb04094f8df8855f461fc5b74ed4c0461d1f36662faa263"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://rodeo.lukeed.com/download/v0.2.0/rodeo-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5d8cb4544beafe74a1432abca37178fca90ade16adc74fbaec13f7fdc8af1867"
+      url "https://rodeo.lukeed.com/download/v0.2.1/rodeo-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4a5f65b5c9729a0aca9e5f81d4b569df6e2831b6417b61365576b2511f00e983"
     end
     on_intel do
-      url "https://rodeo.lukeed.com/download/v0.2.0/rodeo-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "68544d52769ad1d8ef94d03ba44cf465690590ea0b661f795c819ce11513790f"
+      url "https://rodeo.lukeed.com/download/v0.2.1/rodeo-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d2beeee95096e0df1ff70e416e3218f9787ca250bc866ba71c01ffc81c5835ca"
     end
   end
 
